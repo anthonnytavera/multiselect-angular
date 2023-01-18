@@ -1,0 +1,314 @@
+@charset "utf-8";
+
+
+.navbar-brand {
+      height: 48px;
+    }
+
+
+.poner_espacio_abajo{
+
+	margin-bottom: 6px !important;
+}
+
+.poner_espacio_arriba{
+
+	margin-top: 30px !important;
+}
+
+.ajustar_pantalla{
+
+	min-height: calc(100vh - 80px - 200px);
+}
+
+.bx {
+  
+  line-height: normal;
+  
+}
+
+/*  CSS ICONOS LANDING
+  * ======================================================================= */
+
+
+ div > i.card-access-icon {
+  font-size: 2rem!important;
+  width: 50px!important;
+  height: 50px!important;
+  
+  line-height: 50px!important;
+}
+
+
+
+
+/*  CSS SELECCION DIAS DE LA SEMANA
+  * ======================================================================= */
+
+.btn-check:checked + .btn-secondary {
+  color: #fff!important;
+  background-color: #007bc7;
+  border-color: #007bc7;
+}
+
+.btn-check:focus + .btn-secondary  {
+  color: #fff!important;
+
+
+}
+
+
+
+/*  fuente tabla
+  * ======================================================================= */
+
+
+ table{
+	font-size: 0.80rem!important;
+	
+}
+
+
+/*  MENU HOrizontal
+  * ======================================================================= */
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+    margin-top: 2px;
+  font-size: 14px;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+ 
+  
+}
+
+.dropdown-item {
+  
+  color: rgba(0,0,0,.7)!important;
+  font-weight: bold;
+}
+
+.dropdown-item:focus {
+  color: rgb(249, 249, 249)!important;
+  background-color: #005386!important;
+}
+
+
+
+
+.navbar .navbar-collapse {
+  
+  justify-content: flex-start;
+  margin-left: 66px;
+}
+
+.nav-item{
+	
+	margin-left: 8px;
+}
+
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(0,0,0,.7);
+  background-color: #e5e5e5;
+	
+}
+
+.nav-link:focus{
+  color: rgb(249, 249, 249)!important;
+  background-color: #005386!important;
+	
+	
+}
+
+.navbar-toggler {
+  padding: .15rem .65rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.navbar-toggler:focus {
+  
+  box-shadow: 0 0 0 .0;
+  border-color: rgba(0,0,0,0.31);
+}
+
+/*FIN MENU*/
+
+
+
+
+
+/*MENU VERTICAL*/
+
+
+
+.caja_menu_vertical {
+	
+	margin-top: 5% !important;
+	width: 80%;
+	position: sticky;
+	top: 0;
+    z-index: 1020;
+}
+
+
+
+
+.bi {
+  vertical-align: -.125em;
+  pointer-events: none;
+  fill: currentColor;
+}
+
+.dropdown-toggle { outline: 0; }
+
+.nav-flush .nav-link {
+  border-radius: 0;
+}
+
+.btn-toggle {
+  display: inline-flex;
+  align-items: center;
+  padding: .25rem .5rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, .65);
+  background-color: transparent;
+  border: 0;
+}
+.btn-toggle:hover {
+  color: rgba(0,0,0,.7);
+  background-color: #e5e5e5;
+}
+
+
+.btn-toggle:focus {
+  color: rgb(249, 249, 249);
+  background-color: #005386;
+  box-shadow:none;
+}
+
+
+/*.btn-toggle::before {
+  
+  line-height: 0;
+   content:url("BAstrap-master/images/flecha.svg");
+	transition: transform .35s ease;
+  transform-origin: .5em 50%;
+  
+}*/
+
+.btn-toggle[aria-expanded="true"] {
+  /*color: rgba(0, 0, 0, .85);*/
+}
+
+
+/*.btn-toggle[aria-expanded="true"]::before {
+  content:url("BAstrap-master/images/flecha2.svg");
+	transform: rotate(90deg);
+}*/
+
+.btn-toggle-nav a {
+  display: inline-flex;
+  padding: .1875rem .5rem;
+  margin-top: .125rem;
+  margin-left: 1.25rem;
+  text-decoration: none;
+	color:#38485c;
+	
+}
+.btn-toggle-nav a:hover {
+  color: rgba(0,0,0,.7);
+  background-color: #e5e5e5;
+
+}
+
+
+.btn-toggle-nav a:focus {
+  color: rgb(249, 249, 249);
+  background-color: #005386;
+
+}
+
+
+.scrollarea {
+  overflow-y: auto;
+}
+
+
+/*BOTON LOGIN RESPONSIVE*/
+
+.ocultar_boton{
+	
+	display:none;
+	
+}
+
+
+
+@media (max-width: 767px) {
+
+.caja_menu_vertical {
+	margin-top: 1% !important;
+	 z-index: 0;
+	width: 100%;
+}
+	
+#menu_login{
+   display: none;
+}
+#menu_login2{
+   display:block;
+   
+}
+
+}
+
+/*FIN BOTON LOGIN RESPONSIVE*/
+
+
+
+@media (max-width: 751.98px){
+.navbar .navbar-collapse {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  align-items: flex-start;
+}
+	
+	
+}
+
+
+.modal .modal-dialog .modal-xl {
+	max-width: 80% !important;
+	
+	}
+
+
+/*RESETEO PADDING MESES DEL CALENDARIO*/
+
+
+.mes .table th, .mes .table td {
+  padding: .25rem;
+}
+
+
